@@ -1,7 +1,7 @@
 FROM necrose99/gentoo-docker-x86
 
 # installing witchcraft deps
-RUN emerge --sync
+RUN emerge-webrsync -q
 RUN emerge --update --changed-use --deep @world
 RUN emerge dev-perl/Class-Load 
 RUN emerge dev-perl/Class-Load-XS 

@@ -5,6 +5,7 @@ RUN emerge-webrsync -q
 RUN emerge dev-perl/Class-Load 
 RUN emerge dev-perl/Class-Load-XS 
 RUN emerge dev-perl/List-MoreUtils 
+RUN emerge dev-perl/DateTime
 RUN emerge dev-perl/DateTime-Local 
 RUN emerge dev-perl/libwww-perl 
 RUN emerge App-cpanminus

@@ -1,5 +1,5 @@
 FROM necrose99/gentoo-docker-x86
-
+MAINTAINER necrose99 necrose99@protmail.ch mike@michaellawrenceit.com
 RUN emerge git layman 
 RUN layman -L && layman -a perl-experimental-snapshots
 # installing witchcraft deps
